@@ -18,3 +18,9 @@ $(function() {
     $("#walrus-hidden").toggle();
   });
 });
+
+$(function() {
+  $(".clickable1").click(function() {
+    $(".text").fadeToggle();
+  });
+});
